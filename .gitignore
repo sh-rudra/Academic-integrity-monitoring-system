@@ -1,0 +1,24 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# PyInstaller output (agent.spec is intentionally tracked)
+build/
+dist/
+
+# Runtime monitoring data
+monitoring_data.db
+*.db-shm
+*.db-wal
+
+# Local configuration and logs
+.env
+*.log
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
